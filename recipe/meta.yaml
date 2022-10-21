@@ -38,7 +38,7 @@ about:
     A User-Friendly Python Interface for Creating All of the files required to run a GPU Optimized Monte Carlo (GOMC) simulation engine via the Molecular Simulation Design Framework (MoSDeF) software.
   license: MIT
   license_family: MIT
-  license_file: LICENSE
+  license_file: LICENSE.rst
   doc_url: https://github.com/GOMC-WSU/MoSDeF-GOMC
   dev_url: https://github.com/GOMC-WSU/MoSDeF-GOMC
 
