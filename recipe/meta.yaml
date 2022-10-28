@@ -28,7 +28,6 @@ requirements:
     - foyer =0.11.3
     - gmso =0.9.1
     - mbuild =0.15.1
-    - pre-commit
 
 test:
   imports:
