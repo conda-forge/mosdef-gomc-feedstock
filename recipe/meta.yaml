@@ -23,8 +23,6 @@ requirements:
     - garnett
     - gsd
     - pycifrw
-    - pytest
-    - pytest-cov
     - sympy
     - forcefield-utilities =0.2.1
     - foyer =0.11.3
