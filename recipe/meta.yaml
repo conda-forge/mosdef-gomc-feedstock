@@ -20,14 +20,14 @@ requirements:
     - pip
   run:
     - python >=3.8,<=3.9
-    - garnett
-    - gsd
-    - pycifrw
-    - sympy =1.10
-    - forcefield-utilities =0.2.1
-    - foyer =0.11.3
-    - gmso =0.9.1
-    - mbuild =0.15.1
+    - garnett 
+    - gsd 
+    - pycifrw 
+    - sympy =1.10 
+    - forcefield-utilities =0.2.1 
+    - foyer =0.11.3 
+    - gmso =0.9.1 
+    - mbuild =0.15.1 
 
 test:
   imports:
