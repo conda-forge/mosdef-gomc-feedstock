@@ -16,18 +16,20 @@ build:
 
 requirements:
   host:
-    - python >=3.8,<=3.9
+    - python >=3.9,<=3.10
     - pip
   run:
-    - python >=3.8,<=3.9
+    - python >=3.9,<=3.10
     - garnett
     - gsd
     - pycifrw
-    - sympy =1.10
-    - forcefield-utilities =0.2.1
-    - foyer =0.11.3
-    - gmso =0.9.1
-    - mbuild =0.15.1
+    - sympy
+    - symengine
+    - python-symengine
+    - forcefield-utilities >=0.2.1
+    - foyer >=0.11.3
+    - gmso >=0.9.1
+    - mbuild >=0.16.0
 
 test:
   imports:
