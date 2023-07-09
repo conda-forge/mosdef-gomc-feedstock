@@ -1,11 +1,11 @@
-About mosdef-gomc
-=================
+About mosdef-gomc-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mosdef-gomc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/GOMC-WSU/MoSDeF-GOMC
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mosdef-gomc-feedstock/blob/main/LICENSE.txt)
 
 Summary: A User-Friendly Python Interface for Creating All of the files required to run a GPU Optimized Monte Carlo (GOMC) simulation engine via the Molecular Simulation Design Framework (MoSDeF) software.
 
