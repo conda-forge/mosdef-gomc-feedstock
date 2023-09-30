@@ -1,5 +1,5 @@
 {% set name = "mosdef-gomc" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/GOMC-WSU/MoSDeF-GOMC/archive/{{ version }}.tar.gz
-  sha256: 0ede0fc2d7e6a92165472925cff4f8cd4c39b96a6273f825b82b28b331382b85
+  sha256: 88ad1ec8e30930c4db2276f3c748c700d25e129450a35049da9d7847b506f49d
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
