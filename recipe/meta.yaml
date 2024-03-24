@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/GOMC-WSU/MoSDeF-GOMC/archive/{{ version }}.tar.gz
-  sha256: 88ad1ec8e30930c4db2276f3c748c700d25e129450a35049da9d7847b506f49d
+  sha256: 66d0f71d6ff1972ad787ece72d1ccb45a592a25bba2a25c08e8bcf9fe2fd59a5
 
 build:
   noarch: python
