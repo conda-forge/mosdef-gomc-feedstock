@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -26,10 +26,10 @@ requirements:
     - sympy
     - symengine
     - python-symengine
-    - forcefield-utilities >=0.3.0
-    - foyer >=0.12.1
-    - gmso >=0.12.1
-    - mbuild >=0.17.0
+    - forcefield-utilities =0.3.0
+    - foyer =0.12.1
+    - gmso =0.12.1
+    - mbuild =0.17.1
 
 test:
   imports:
