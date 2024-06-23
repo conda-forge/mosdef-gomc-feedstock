@@ -26,10 +26,10 @@ requirements:
     - sympy
     - symengine
     - python-symengine
-    - forcefield-utilities >=0.2.2
-    - foyer >=0.12.0
-    - gmso >=0.11.2
-    - mbuild >=0.16.4
+    - forcefield-utilities =0.3.0
+    - foyer =0.12.1
+    - gmso =0.12.1
+    - mbuild =0.17.1
 
 test:
   imports:
