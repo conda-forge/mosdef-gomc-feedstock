@@ -28,8 +28,11 @@ requirements:
     - python-symengine
     - forcefield-utilities =0.3.0
     - foyer =0.12.1
-    - gmso =0.12.1
+    - gmso =0.12.4
     - mbuild =0.17.1
+    - pytest
+    - pytest-cov
+    - coverage
 
 test:
   imports:
