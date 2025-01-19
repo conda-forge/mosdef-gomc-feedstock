@@ -1,3 +1,5 @@
+{% set python_min = '3.10' %}
+{% set python_max = '3.12' %}
 {% set name = "mosdef-gomc" %}
 {% set version = "1.4.0" %}
 
@@ -12,14 +14,15 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
-    - python >=3.10,<=3.11
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.10,<=3.11
+    - python >={{ python_min }},<{{ python_max }}
+    - netcdf4
     - garnett
     - gsd
     - pycifrw
@@ -27,9 +30,9 @@ requirements:
     - symengine
     - python-symengine
     - forcefield-utilities >=0.3.0
-    - foyer >=0.12.1
+    - foyer >=1.0.0
     - gmso >=0.12.4
-    - mbuild >=0.17.1
+    - mbuild >=1.1.0
     - pytest
     - pytest-cov
     - coverage
@@ -39,6 +42,7 @@ test:
     - mosdef_gomc
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
