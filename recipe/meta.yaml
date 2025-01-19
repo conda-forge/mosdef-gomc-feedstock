@@ -1,5 +1,5 @@
 {% set python_min = '3.10' %}
-{% set python_max = '3.11.*' %}
+{% set python_max = '3.11.9' %}
 {% set name = "mosdef-gomc" %}
 {% set version = "1.4.0" %}
 
