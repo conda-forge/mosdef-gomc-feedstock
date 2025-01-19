@@ -1,5 +1,5 @@
 {% set python_min = '3.10' %}
-{% set python_max = '3.11.9' %}
+{% set python_max = '3.12' %}
 {% set name = "mosdef-gomc" %}
 {% set version = "1.4.0" %}
 
@@ -18,7 +18,7 @@ build:
 
 requirements:
   host:
-    - python {{ python_max }}
+    - python {{ python_min }}
     - pip
   run:
     - python >={{ python_min }},<{{ python_max }}
@@ -41,7 +41,7 @@ test:
     - mosdef_gomc
   requires:
     - pip
-    - python {{ python_max }}
+    - python {{ python_min }}
   commands:
     - pip check
 
