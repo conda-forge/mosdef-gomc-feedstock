@@ -1,8 +1,8 @@
-{% set python_min = '3.12' %}
-{% set python_max = '3.14' %}
+{% set python_min = "3.12" %}
+{% set python_max = "3.14" %}
 {% set name = "mosdef-gomc" %}
 {% set version = "1.5.1" %}
-{% set build_number = "0" %}
+{% set build_number = 0 %}
 
 package:
   name: {{ name|lower }}
