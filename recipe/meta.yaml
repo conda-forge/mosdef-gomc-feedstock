@@ -2,7 +2,7 @@
 {% set python_max = '3.14' %}
 {% set name = "mosdef-gomc" %}
 {% set version = "1.5.0" %}
-{% set build_number = "0" %}
+{% set build_number = "1" %}
 
 package:
   name: {{ name|lower }}
@@ -33,7 +33,7 @@ requirements:
     - numpy >=2.0,<2.3
     - forcefield-utilities >=0.4.0
     - foyer >=1.0.1
-    - gmso >=0.14.0
+    - gmso =0.14.0
     - mbuild >=1.2.1
     - pytest
     - pytest-cov
