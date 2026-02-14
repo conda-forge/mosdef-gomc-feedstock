@@ -1,8 +1,8 @@
-{% set python_min = '3.12' %}
-{% set python_max = '3.14' %}
+{% set python_min = '3.11.*' %}
+{% set python_max = '3.14.*' %}
 {% set name = "mosdef-gomc" %}
-{% set version = "1.5.0" %}
-{% set build_number = "1" %}
+{% set version = "1.6.0" %}
+{% set build_number = "0" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/GOMC-WSU/MoSDeF-GOMC/archive/{{ version }}.tar.gz
-  sha256: 20ba552c1c6bb832292653aa5b0d2dd97e74b485a92c2d3a4647c7f6de51cf01
+  sha256: 389e46cf471b7b7b589b280ca5ecaca7a3bc8aa5777fd3764901ea35c0285f7a
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
     - python >={{ python_min }},<{{ python_max }}
     - netcdf4
     - garnett
-    - gsd
+    - gsd =3.3.2
     - pycifrw
     - sympy
     - symengine
@@ -33,7 +33,7 @@ requirements:
     - numpy >=2.0,<2.3
     - forcefield-utilities >=0.4.0
     - foyer >=1.0.1
-    - gmso =0.14.0
+    - gmso >=0.12.4
     - mbuild >=1.2.1
     - pytest
     - pytest-cov
